@@ -1,0 +1,123 @@
+body{
+    color:#333333;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding: 0 16px ;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /* background: #eee;
+    background: linear-gradient(0deg, rgba(0, 0, 200, 0.2) , rgba(0, 0, 200, 0) ); */
+    
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color:black;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+#p1{
+    color: black;
+}
+
+header a{
+    color:#888888;
+    margin-right: 25px;
+    text-decoration:none;
+    
+}
+header a:hover{
+    color: rgb(128, 0, 0);
+    font-size: 150%;
+}
+header a:active{
+    color:yellow;
+}
+
+.portrait{
+    width: 250px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color:greenyellow;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+button:hover{
+    color: rgb(128, 0, 0);
+    font-size: 90%;
+}
+
+#msg1{
+    color:black;
+    font-size:x-large;
+}
+#msg2{
+    color:black;
+    font-size:x-large;
+}
+
+#about-me{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#help-page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#help-greet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+
+#Page404{
+    font-size:50px;
+    color: red;
+}
+
+#PageMsg{
+    font-size:x-large;
+}
+
+#social{
+    text-decoration: none;
+    color:darkred
+}
+
+#social:hover{
+    color:darkblue;
+    font-size: 150%;
+    cursor: pointer;
+}
